@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{2D99936F-D14D-463A-90F4-641830EB8F61}"
+	ProjectSection(SolutionItems) = preProject
+		doc\Domain Model.png = doc\Domain Model.png
+		doc\Model.uml = doc\Model.uml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
