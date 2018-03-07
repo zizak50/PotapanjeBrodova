@@ -9,7 +9,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{2D99936F-D14
 		doc\Model.uml = doc\Model.uml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{E9848CAC-A920-4646-8214-47EE48B8D7A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{FD8B02BD-9CAE-432E-A066-02932194004E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9848CAC-A920-4646-8214-47EE48B8D7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9848CAC-A920-4646-8214-47EE48B8D7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9848CAC-A920-4646-8214-47EE48B8D7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9848CAC-A920-4646-8214-47EE48B8D7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8B02BD-9CAE-432E-A066-02932194004E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8B02BD-9CAE-432E-A066-02932194004E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8B02BD-9CAE-432E-A066-02932194004E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8B02BD-9CAE-432E-A066-02932194004E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
