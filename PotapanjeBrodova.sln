@@ -9,7 +9,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{2D99936F-D14
 		doc\Model.uml = doc\Model.uml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{F6754E3E-BD19-48F8-B65B-69CABE94D47C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{BE486B09-D91A-4BF9-B764-4316694E92F1}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6754E3E-BD19-48F8-B65B-69CABE94D47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6754E3E-BD19-48F8-B65B-69CABE94D47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6754E3E-BD19-48F8-B65B-69CABE94D47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6754E3E-BD19-48F8-B65B-69CABE94D47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE486B09-D91A-4BF9-B764-4316694E92F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE486B09-D91A-4BF9-B764-4316694E92F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE486B09-D91A-4BF9-B764-4316694E92F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE486B09-D91A-4BF9-B764-4316694E92F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
