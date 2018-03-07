@@ -9,7 +9,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{2D99936F-D14
 		doc\Model.uml = doc\Model.uml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{FA54610B-ABE0-4E7F-8531-B63FC110868D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{91395DED-F37E-43F1-805A-792A9241E21F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA54610B-ABE0-4E7F-8531-B63FC110868D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA54610B-ABE0-4E7F-8531-B63FC110868D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA54610B-ABE0-4E7F-8531-B63FC110868D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA54610B-ABE0-4E7F-8531-B63FC110868D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91395DED-F37E-43F1-805A-792A9241E21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91395DED-F37E-43F1-805A-792A9241E21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91395DED-F37E-43F1-805A-792A9241E21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91395DED-F37E-43F1-805A-792A9241E21F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
