@@ -13,6 +13,7 @@ namespace Tests
             Field f = new Field(3, 4);
             Assert.AreEqual(3, f.Row);
             Assert.AreEqual(4, f.Column);
+            //something
         }
     }
 }
